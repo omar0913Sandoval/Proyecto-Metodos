@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="659.0" prefWidth="1110.0" stylesheets="@Styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Method.Numeric.Controller.FXMLMenuController">
+   <children>
+      <BorderPane fx:id="pnlBorderPane" layoutX="261.0" layoutY="145.0" prefHeight="200.0" prefWidth="200.0" stylesheets="@Styles.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <Pane fx:id="pnlCenter" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </center>
+         <top>
+            <Pane fx:id="pnlUp" prefHeight="63.0" prefWidth="1110.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="btnPress" layoutX="14.0" layoutY="7.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="105.0" stylesheets="@Styles.css" text="Press" />
+               </children>
+            </Pane>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>
